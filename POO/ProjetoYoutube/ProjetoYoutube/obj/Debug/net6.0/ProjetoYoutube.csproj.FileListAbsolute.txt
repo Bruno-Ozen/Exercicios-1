@@ -1,0 +1,15 @@
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\bin\Debug\net6.0\ProjetoYoutube.exe
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\bin\Debug\net6.0\ProjetoYoutube.deps.json
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\bin\Debug\net6.0\ProjetoYoutube.runtimeconfig.json
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\bin\Debug\net6.0\ProjetoYoutube.dll
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\bin\Debug\net6.0\ProjetoYoutube.pdb
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.csproj.AssemblyReference.cache
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.AssemblyInfoInputs.cache
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.AssemblyInfo.cs
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.dll
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\refint\ProjetoYoutube.dll
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.pdb
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ProjetoYoutube.genruntimeconfig.cache
+C:\Users\bruno\source\repos\ProjetoYoutube\ProjetoYoutube\obj\Debug\net6.0\ref\ProjetoYoutube.dll
