@@ -5,9 +5,41 @@ using static System.Console;
 
 public class SistemaCadastro
 {
-    public List<string> Nome { get; set; } = new List<string>();
-    public List<string> Celular { get; set; } = new List<string>();
-    public List<string> Cidade { get; set; } = new List<string>();
+    public List<string> nome = new List<string>();
+    public List<string> celular = new List<string>();
+    public List<string> cidade = new List<string>();
+
+    public List<string> Nome
+    {
+        get
+        {
+            return this.nome;
+        }
+        set
+        {
+            this.nome = value;
+        }
+    }
+    public List<string> Celular
+    {
+        get
+        {
+            return this.celular;
+        }
+        set
+        { 
+            this.celular = value;
+        }
+    }
+    public List<string> Cidade
+    {
+        get { 
+            return this.cidade;
+        }
+        set { 
+            this.cidade = value;
+        }
+    }
 
     public void printMenu(string[] opcoes)
     {
