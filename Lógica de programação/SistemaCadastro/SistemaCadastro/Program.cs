@@ -5,9 +5,9 @@ using static System.Console;
 
 public class SistemaCadastro
 {
-    public List<string> nome = new List<string>();
-    public List<string> celular = new List<string>();
-    public List<string> cidade = new List<string>();
+    public List<string> Nome { get; set; } = new List<string>();
+    public List<string> Celular { get; set; } = new List<string>();
+    public List<string> Cidade { get; set; } = new List<string>();
 
     public void printMenu(string[] opcoes)
     {
@@ -71,11 +71,11 @@ public class SistemaCadastro
         Clear();
         WriteLine("--- CADASTRANDO UM FORNECEDOR ---");
         WriteLine("Qual é o nome do fornecedor? ");
-        this.nome.Add(ReadLine());
+        this.Nome.Add(ReadLine());
         WriteLine("Qual é o celular do fornecedor? ");
-        this.celular.Add(ReadLine());
+        this.Celular.Add(ReadLine());
         WriteLine("Qual é a cidade do fornecedor? ");
-        this.cidade.Add(ReadLine());
+        this.Cidade.Add(ReadLine());
     }
 
     void Editar()
@@ -84,21 +84,21 @@ public class SistemaCadastro
         Clear();
         WriteLine("--- EDITANDO UM FORNECEDOR ---");
         WriteLine("Qual é o nome do fornecedor que deseja editar? ");
-        index = this.nome.IndexOf(ReadLine());
+        index = this.Nome.IndexOf(ReadLine());
         WriteLine();
         if (index >= 0)
         {
             WriteLine("--- FORNECEDOR QUE SERÁ EDITADO ---");
-            WriteLine("Nome do fornecedor: " + getNome(index));
-            WriteLine("Celular do fornecedor: " + getCelular(index));
-            WriteLine("Cidade do fornecedor: " + getCidade(index));
+            WriteLine("Nome do fornecedor: " + Nome[index]);
+            WriteLine("Celular do fornecedor: " + Celular[index]);
+            WriteLine("Cidade do fornecedor: " + Cidade[index]);
             WriteLine();
             WriteLine("Digite o novo nome do fornecedor: ");
-            this.nome[index] = ReadLine();
+            this.Nome[index] = ReadLine();
             WriteLine("Digite o novo celular do fornecedor: ");
-            this.celular[index] = ReadLine();
+            this.Celular[index] = ReadLine();
             WriteLine("Digite a nova cidade do fornecedor: ");
-            this.cidade[index] = ReadLine();
+            this.Cidade[index] = ReadLine();
         }
         else
         {
@@ -113,17 +113,17 @@ public class SistemaCadastro
         Clear();
         WriteLine("--- EXCLUIR CADASTROS ---");
         WriteLine("Qual é o nome do fornecedor que deseja deletar? ");
-        index = this.nome.IndexOf(ReadLine());
+        index = this.Nome.IndexOf(ReadLine());
         WriteLine();
         if (index >= 0)
         {
             WriteLine("--- FORNECEDOR QUE SERÁ DELETADO ---");
-            WriteLine("Nome do fornecedor: " + getNome(index));
-            WriteLine("Celular do fornecedor: " + getCelular(index));
-            WriteLine("Cidade do fornecedor: " + getCidade(index));
-            nome.RemoveAt(index);
-            celular.RemoveAt(index);
-            cidade.RemoveAt(index);
+            WriteLine("Nome do fornecedor: " + Nome[index]);
+            WriteLine("Celular do fornecedor: " + Celular[index]);
+            WriteLine("Cidade do fornecedor: " + Cidade[index]);
+            Nome.RemoveAt(index);
+            Celular.RemoveAt(index);
+            Cidade.RemoveAt(index);
         }
         else
         {
@@ -137,30 +137,31 @@ public class SistemaCadastro
     {
         Clear();
         WriteLine("--- LISTANDO FORNECEDORES ---");
-        for (int i = 0; i < nome.Count; i++)
+        for (int i = 0; i < Nome.Count; i++)
         {
             WriteLine("--- FORNECEDOR " + (i + 1) + "---");
-            WriteLine("Nome: " + this.getNome(i));
-            WriteLine("Celular: " + this.getCelular(i)); ;
-            WriteLine("Cidade: " + this.getCidade(i));
+            WriteLine("Nome: " + Nome[i]);
+            WriteLine("Celular: " + Celular[i]); ;
+            WriteLine("Cidade: " + Cidade[i]);
             WriteLine();
         }
         ReadLine();
     }
 
-    //MÉTODOS ESPECIAIS
-    string getNome(int index)
+    /*public string Nome
     {
-        return this.nome[index];
+        get { return this.nome[index]; }
+        set { this.nome[index] = value; }
     }
 
-    string getCelular(int index)
+    public string this[int index]
     {
-        return this.celular[index];
+        get { return this.celular[index]; }
+        set { this.celular[index] = value; }
     }
 
-    string getCidade(int index)
-    {
-        return this.cidade[index];
-    }
+    public string this[int index]{
+        get { return this.cidade[index]; }
+        set { this.cidade[index]= value; }
+    }*/
 }
