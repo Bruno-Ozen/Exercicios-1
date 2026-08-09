@@ -278,7 +278,3 @@ Desenvolvido por **Bruno Ozen** como parte de um processo prático de aprendizag
 
 - GitHub: [Bruno-Ozen](https://github.com/Bruno-Ozen)
 - Repositório: [Exercicios-1](https://github.com/Bruno-Ozen/Exercicios-1)
-
-## Licença
-
-Este projeto contém um arquivo `LICENSE` no repositório. Consulte-o para obter os termos de utilização e distribuição do código.
